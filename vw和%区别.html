@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 50%;
+            height: 100px;
+        }
+        
+        .son1 {
+            width: 50%;
+            height: 50px;
+            background-color: pink;
+            color: #fff;
+        }
+        
+        .son2 {
+            width: 50vw;
+            height: 50px;
+            background-color: blue;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>vw和百分比的区别？</h1>
+    <div class="father">
+        <p>百分比有继承关系</p>
+        <div class="son1">%</div>
+        <p>vw没有继承关系，只和屏幕宽度有关</p>
+
+        <div class="son2">vw</div>
+    </div>
+</body>
+
+</html>
